@@ -1,0 +1,86 @@
+	document.getElementById('nose').classList.add('disblock');
+	document.getElementById('tabitem1page5').classList.add('ActivePage5');
+function tabitem1page5 () {
+	document.getElementById('tabitem1page5').classList.add('ActivePage5');
+	document.getElementById('tabitem2page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem3page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem4page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem5page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem6page5').classList.remove('ActivePage5');
+	document.getElementById('chest').classList.remove('disblock');
+	document.getElementById('younger').classList.remove('disblock');
+	document.getElementById('hair').classList.remove('disblock');
+	document.getElementById('skin').classList.remove('disblock');
+	document.getElementById('fat').classList.remove('disblock');
+	document.getElementById('nose').classList.add('disblock');
+}
+function tabitem2page5 () {
+	document.getElementById('tabitem2page5').classList.add('ActivePage5');
+	document.getElementById('tabitem1page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem3page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem4page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem5page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem6page5').classList.remove('ActivePage5');
+	document.getElementById('chest').classList.remove('disblock');
+	document.getElementById('younger').classList.remove('disblock');
+	document.getElementById('hair').classList.remove('disblock');
+	document.getElementById('skin').classList.remove('disblock');
+	document.getElementById('nose').classList.remove('disblock');
+	document.getElementById('fat').classList.add('disblock');
+}	
+function tabitem3page5 () {
+	document.getElementById('tabitem3page5').classList.add('ActivePage5');
+	document.getElementById('tabitem2page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem1page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem4page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem5page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem6page5').classList.remove('ActivePage5');
+	document.getElementById('nose').classList.remove('disblock');
+	document.getElementById('younger').classList.remove('disblock');
+	document.getElementById('hair').classList.remove('disblock');
+	document.getElementById('skin').classList.remove('disblock');
+	document.getElementById('fat').classList.remove('disblock');
+	document.getElementById('chest').classList.add('disblock');
+}	
+function tabitem4page5 () {
+	document.getElementById('tabitem4page5').classList.add('ActivePage5');
+	document.getElementById('tabitem3page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem2page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem1page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem5page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem6page5').classList.remove('ActivePage5');
+	document.getElementById('chest').classList.remove('disblock');
+	document.getElementById('nose').classList.remove('disblock');
+	document.getElementById('hair').classList.remove('disblock');
+	document.getElementById('skin').classList.remove('disblock');
+	document.getElementById('fat').classList.remove('disblock');
+	document.getElementById('younger').classList.add('disblock');
+}	
+function tabitem5page5 () {
+	document.getElementById('tabitem5page5').classList.add('ActivePage5');
+	document.getElementById('tabitem2page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem3page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem4page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem1page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem6page5').classList.remove('ActivePage5');
+	document.getElementById('chest').classList.remove('disblock');
+	document.getElementById('younger').classList.remove('disblock');
+	document.getElementById('nose').classList.remove('disblock');
+	document.getElementById('skin').classList.remove('disblock');
+	document.getElementById('fat').classList.remove('disblock');
+	document.getElementById('hair').classList.add('disblock');
+}	
+function tabitem6page5 () {
+	document.getElementById('tabitem6page5').classList.add('ActivePage5');
+	document.getElementById('tabitem2page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem3page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem4page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem5page5').classList.remove('ActivePage5');
+	document.getElementById('tabitem1page5').classList.remove('ActivePage5');
+	document.getElementById('chest').classList.remove('disblock');
+	document.getElementById('younger').classList.remove('disblock');
+	document.getElementById('hair').classList.remove('disblock');
+	document.getElementById('nose').classList.remove('disblock');
+	document.getElementById('fat').classList.remove('disblock');
+	document.getElementById('skin').classList.add('disblock');
+}	

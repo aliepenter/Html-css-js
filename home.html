@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>Viện thẩm mỹ Xubee</title>
+	<link rel="icon" href="images/66825558_365047187534134_3565249015220011008_n.jpg">
+	<!-- Local bootstrap CSS & JS -->
+	<link rel="stylesheet" media="screen" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.min.css">
+	<link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css”>
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<div class="menuHeader-mobile" id="menufix">
+			<div class="container menuHeader" id="menuHeader">
+				<div class="left">
+					<div class="logo flex margin-bot">
+						<div class="logo-img">
+							<img src="images/66825558_365047187534134_3565249015220011008_n.jpg">
+						</div>
+						<div class="logo-content">
+							<img src="images/61340088_101570394437285_8219198250574413824_o.jpg" width="80%">
+						</div>
+					</div>
+				</div>
+				<div class="mid">
+					<div class="menu">
+						<ul>
+							<li id="click1"><a href="#">Trang chủ</a></li>
+							<li id="click2"><a href="#">Ưu đãi</a></li>
+							<li id="click3"><a href="#">Dịch vụ nổi bật</a></li>
+							<li id="click5"><a href="#">Kết quả</a></li>
+							<li id="click4"><a href="#">Đặt lịch</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="right flex">
+					<div class="signinbtn">
+						<a href="sign.html">
+							<button style="submit" class="button" onclick="signin()">
+								<i class="fas fa-sign-in-alt"></i>
+								<span>Đăng nhập</span>
+							</button>
+						</a>
+					</div>
+					<div class="phonebtn">
+						<button style="submit" class="button" onclick="call2()">
+							<i class="fas fa-phone"></i>
+							<span>038.758.1858</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="" id="opAll" onclick="back ()">
+		</div>
+		<div class="" id="opAll2" onclick="back2 ()">
+		</div>
+		<div class="" id="opAll3" onclick="back3 ()">
+		</div>
+		<div class="phoneAll phonetop" id="pAll" onclick="phoneBox()">
+			<p>Nhập số điện thoại để được VTM XUBEE gọi lại ngay !</p>
+			<form class="flex" action="call.html" id="callphonenum">
+				<div class="in form-groupval">
+					<input type="text" name="_phone" value="" placeholder="Nhập số điện thoại vào đây" class="">
+				</div>
+				<div class="bu form-groupval">
+					<button type="submit" class="btncall">Yêu cầu gọi lại</button>
+				</div>
+			</form>
+			<div class="recall">
+				<span> Hoặc liên hệ với chúng tôi qua hotline: <br> 038.758.1858</span>
+			</div>
+		</div>
+		<div class="" id="menufix">
+		<div class="header-mobile-res flex fixed" id="scrFixMenu">
+			<div class="left">
+				<i class="fas fa-bars" id="menuBar" onclick="check()"></i>
+			</div>
+			<div class="mid">
+				<div class="logo">
+					<a href="#"><img src="images/66825558_365047187534134_3565249015220011008_n.jpg" width="80px"></a>
+				</div>
+			</div>
+			<div class="right">
+				<div class="res-i">
+					<i class="fas fa-phone" onclick="call()"></i>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="page1" id="page1">
+			<div class="banner">
+				<div class="img">
+					<img src="images/62413865_349055459133307_3156631972776771584_o.jpg" width="100%">
+				</div>
+			</div>
+		</div>
+		<div class="page2 page2-cus" id="page2">
+			<a href="sign.html">
+			<div class="row">
+				<div id="carousel-id" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-id" data-slide-to="0" class=""></li>
+						<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+						<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/73528743_422401121798740_7230323374025605120_o.jpg" width="100%">
+						</div>
+						<div class="item">
+							<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="images/67755480_126525648608426_849218173763846144_o.jpg" width="100%" >
+						</div>
+						<div class="item active">
+							<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="images/72699261_415610365811149_606795887271739392_o.jpg" width="100%">
+						</div>
+					</div>
+					<a class="left carousel-control border-radius-cus" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					<a class="right carousel-control border-radius-cus" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>
+			</div>
+			</a>
+		</div>
+		<div class="items">
+				<div class="item1All" id="iteminfo">
+					<div class="close">
+						<i class="far fa-times-circle" onclick="closeitem()"></i>
+					</div>
+					<div class="header-item">
+						<h2>Nâng mũi cấu trúc cắt mí Eyelift</h2>
+					</div>
+					<div class="body-item">
+						<h4>
+							<span>OFF <b>25%</b>: Thẩm mỹ mắt </span>
+							<p>- Cắt mí Eye Lift chỉ Giảm <b>25%</b> ( còn <b>6,75</b> triệu) hoặc tặng lấy mỡ/tạo khóe</p>
+							<p>- Bấm mí Dr Park: còn <b>6,75</b> triệu</p>
+							<p>- Cắt mí + Xóa rãnh lệ/ Chỉnh hình sụp mí: Còn <b>18,75</b> triệu</p>
+							<p>- Cắt mí trên/ dưới + Ghép mỡ: Còn <b>15</b> triệu</p>
+							<p>- Cắt mí trên/ dưới + Lấy mỡ/ Tạo khóe + Xóa rãnh lệ/ Chỉnh hình sụp mí: Còn <b>18,75</b> triệu</p>
+							<p>- Chỉnh hình sụp mí bẩm sinh: Còn <b>9</b> triệu</p>
+							<p>- Nâng cung chân mày: còn <b>5,6</b> triệu hoặc tặng phun xăm</p>
+							<p>- Nâng cung mày + Ghép/ cấy mỡ: còn <b>16</b> triệu</p>
+							<p>- Chỉnh hình mắt phức tạp (tai nạn, bẩm sinh, phẫu thuật hỏng,..) còn <b>18,75</b> triệu</p>
+						</h4>
+						<h4>
+							<span>OFF <b>25%</b>: Thẩm mỹ mũi </span>
+							<p>- Nâng mũi bọc sụn <b>15</b> triệu</p>
+							<p>- Nâng mũi Sline/ Lline: còn <b>18,75</b> triệu và Giảm <b>50%</b> dịch vụ điều trị da hoặc Spa (liệu trình 5 lần trở lên)</p>
+							<p>+ Gồm các dịch vụ: Nám - Tàn Nhang - Trị sẹo - Tắm trắng - Triệt lông - Chăm sóc da mặt </p>
+							<p>- Nâng mũi Cấu trúc: Giảm <b>25%</b> (còn <b>26,25</b> triệu) hoặc tặng chỉnh xương</p>
+							<p>- Nâng mũi Cấu trúc chỉnh xương: còn <b>33,75</b> triệu</p>
+							<p>- Nâng mũi Nano Form: còn <b>41,25</b> triệu</p>
+							<p>- Nâng mũi Sụn sườn: còn <b>60</b> triệu</p>
+							<p>- Nâng mũi Sụn sườn kết hợp: còn <b>40</b> triệu</p>
+							<p>- Chỉnh hình mũi phức tạp (tai nạn, sứt môi, vẹo, gồ, hếch…) còn <b>60</b> triệu</p>
+							<p>- Thu nhỏ cánh mũi (Cuộn/ cắt cánh mũi): còn <b>5,8</b> triệu</p>
+							<p>- Tạo hình/ thu nhỏ đầu mũi: còn <b>9,6</b> triệu</p>
+							<p>- Dịch vụ nâng mũi sửa lại: Ưu đãi <b>10%</b></p>
+						</h4>
+						<h4>
+							Giảm thêm tới <b>7%</b> khi đăng ký thực hiện 2 dịch vụ trở lên
+						</h4>
+						<h4>
+							Khách hàng đăng ký dịch vụ trong tháng 11 sẽ được giảm <b>50%</b> tẩy trắng răng
+						</h4>
+						<div class="btnitem">
+							<a href="sign.html">
+								<button type="" class="button">
+									<span>Nhận ưu đãi</span>
+								</button>
+							</a>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="page3" id="page3">
+			<div class="page3-content wow fadeInDown">		
+				<h3>Làm đẹp đẳng cấp</h3>
+				<h3>chất lượng quốc tế</h3>
+				<p>Với bác sĩ giỏi - Dịch vụ 5 sao - Giá cả hợp lý</p>
+				<p>áp dụng: 01/11 - 30/11</p>
+			</div>
+			<div class="container page3-items flex">
+				<div class="item1 item-style" onclick="iteminfo ()">
+					<div class="img wow fadeInUp">
+						<div class="img1 size-item">
+						<img src="images/dichvu/t3-pic-1.jpg">
+					</div>
+					<div class="img2 size-item">
+						<img src="images/dichvu/t3-pic-1s.jpg">
+					</div>
+					</div>
+					<div class="content-item wow fadeInDown">
+						<p>Nâng mũi <br> cắt mí eyelift</p>
+						<div class="sale">
+							<p>OFF 25%</p>
+						</div>
+					</div>
+				</div>
+				<div class="item2 item-style">
+					<div class="img wow fadeInUp">
+						<div class="img1 size-item">
+							<img src="images/dichvu/t3-pic-3.jpg">
+						</div>
+						<div class="img2 size-item">
+							<img src="images/dichvu/t3-pic-3s.jpg">
+						</div>
+					</div>
+					<div class="content-item wow fadeInDown">
+						<p>Giảm béo<br> công nghệ cao</p>
+						<div class="sale">
+							<p>từ 20 triệu</p>
+						</div>
+					</div>
+				</div>
+				<div class="item3 item-style">
+					<div class="img wow fadeInUp">
+						<div class="img1 size-item">
+							<img src="images/dichvu/t3-pic-4.jpg">
+						</div>
+						<div class="img2 size-item">
+							<img src="images/dichvu/t3-pic-4s.jpg">
+						</div>
+					</div>
+					<div class="content-item wow fadeInDown">
+						<p>Nâng ngực<br> kĩ thuật nano</p>
+						<div class="sale">
+							<p>từ 49 triệu</p>
+						</div>
+					</div>
+				</div>
+				<div class="item4 item-style">
+					<div class="img wow fadeInUp">
+						<div class="img1 size-item">
+							<img src="images/dichvu/t3-pic-5.jpg">
+						</div>
+						<div class="img2 size-item">
+							<img src="images/dichvu/t3-pic-5s.jpg">
+						</div>
+					</div>
+					<div class="content-item wow fadeInDown">
+						<p>Trẻ hóa<br>toàn diện</p>
+						<div class="sale">
+							<p>Tặng tới 35tr</p>
+						</div>
+					</div>
+				</div>
+				<div class="item5 item-style">
+					<div class="img wow fadeInUp">
+						<div class="img1 size-item">
+							<img src="images/dichvu/t3-pic-6.jpg">
+						</div>
+						<div class="img2 size-item">
+							<img src="images/dichvu/t3-pic-6s.jpg">
+						</div>
+					</div>
+					<div class="content-item wow fadeInDown">
+						<p>Cấy tóc<br>biohairs</p>
+						<div class="sale">
+							<p>tặng tới 15tr</p>
+						</div>
+					</div>
+				</div>
+				<div class="item6 item-style">
+					<div class="img wow fadeInUp">
+						<div class="img1 size-item">
+							<img src="images/dichvu/t3-pic-7.jpg">
+						</div>
+						<div class="img2 size-item">
+							<img src="images/dichvu/t3-pic-7s.jpg">
+						</div>
+					</div>
+					<div class="content-item wow fadeInDown">
+						<p>Điều trị da<br>Nhật bản</p>
+						<div class="sale">
+							<p>chỉ từ 190k</p>
+						</div>
+					</div>
+				</div>
+				<div class="signBt">
+					<p>Dành cho khách hàng đăng kí thành viên</p>
+					<a href="sign.html"  onclick="signup()">
+						<button class="button" type="submit" id="button">
+							<span>đăng kí ngay</span>
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="page5" id="page5">
+			<div class="containercontentPage5">
+				<div class="contentPage5 wow fadeInDown">
+					<h3>Kết quả thực thế khách hàng</h3>
+					<p>Phẩu thuật thẩm mỹ - điều trị da - spa</p>
+				</div>
+			</div>
+			<div class="containerPage5">
+				<div class="tabPage5 flex">
+					<div class="tabItemPage5 wow fadeInDown" onclick="tabitem1page5 ()" id="tabitem1page5">
+						<span class="">Nâng mũi</span>
+					</div>
+					<div class="tabItemPage5 wow fadeInDown" onclick="tabitem2page5 ()" id="tabitem2page5">
+						<span>Giảm béo</span>
+					</div>
+					<div class="tabItemPage5 wow fadeInDown" onclick="tabitem3page5 ()" id="tabitem3page5">
+						<span>Nâng ngực</span>
+					</div>
+					<div class="tabItemPage5 wow fadeInDown" onclick="tabitem4page5 ()" id="tabitem4page5">
+						<span>Trẻ hóa</span>
+					</div>
+					<div class="tabItemPage5 wow fadeInDown" onclick="tabitem5page5 ()" id="tabitem5page5">
+						<span>Cấy tóc</span>
+					</div>
+					<div class="tabItemPage5 wow fadeInDown" onclick="tabitem6page5 ()" id="tabitem6page5">
+						<span>Trị mụn</span>
+					</div>
+				</div>
+			</div>
+			<div class="containerPage5img">
+				<div class="imgschange">
+					<div class="nose samePage5" id="nose">
+						<img src="images/kq/t4-mui-m.jpg" width="100%">
+					</div>
+					<div class="fat samePage5" id="fat">
+						<img src="images/kq/t4-seo-m.jpg" width="100%">
+					</div>
+					<div class="chest samePage5" id="chest">
+						<img src="images/kq/t4-nguc-m.jpg" width="100%">
+					</div>
+					<div class="younger samePage5" id="younger">
+						<img src="images/kq/t4-hammat-m.jpg" width="100%">
+					</div>
+					<div class="hair samePage5" id="hair">
+						<img src="images/kq/t4-xoaxam-m.jpg" width="100%">
+					</div>
+					<div class="skin samePage5" id="skin">
+						<img src="images/kq/t4-da-m.jpg" width="100%">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="page4" id="page4">
+			<div class="content-page4">
+				<div class="topContent wow fadeInDown">
+					<h2>Tại XuBee</h2>
+					<p>Lột xác là có thật!</p>
+				</div>
+				<div class="dl">
+					<p>Đặt lịch</p>
+				</div>
+				<div class="wow fadeInUp">
+					<span>Để nhận miễn phí <br> một gói massage da mặt <br> TRỊ GIÁ 199K</span><br>
+				</div>
+				<div class="btn-page4">
+					<a href="book.html">
+						<button class="button" type=""><span>Đặt lịch ngay</span></button>
+					</a>
+				</div>
+			</div>
+			<div class="bgimg">
+				<img src="images/Capture.PNG" width="100%">
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="first flex">
+			<div class="contact">
+				<div class="logoFooter">
+					<img src="images/66825558_365047187534134_3565249015220011008_n.jpg">
+					<div class="certi">
+						<p>số cchn: 00378/bp / qđ 238/byt - gphđ - Bộ y tế</p>
+					</div>
+				</div>
+				<div class="iconContact flex">
+					<div class="fb iconsame">
+						<a href="https://www.facebook.com/thammyxubee/" target="_blank"><i class="fab fa-facebook"></i></a>
+					</div>
+					<div class="yt iconsame">
+						<a href="https://www.youtube.com/channel/UCpii__p4GyHohJ-7MMM5IBg" target="_blank"><i class="fab fa-youtube"></i></a>
+					</div>
+					<div class="phoneicon iconsame">
+						<i class="fas fa-phone" onclick="call2()"></i>
+					</div>
+				</div>
+				<div class="contactDetail flex">
+					<div class="left">
+						<ul>
+							<li><i class="fas fa-phone"></i> Di động</li>
+							<li><i class="fas fa-envelope"></i> Email</li>
+							<li><i class="fab fa-facebook"></i> Facebook</li>
+						</ul>
+					</div>
+					<div class="right">
+						<ul>
+							<li>038.758.1858</li>
+							<li>thammyxubee@gmail.com</li>
+							<li>Viện thẩm mỹ XuBee</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="addMap">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.1831601498748!2d105.83507611533777!3d21.578772474148778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313527630264c931%3A0xa640cee7a4aa0f3b!2sXubee%20Beauty%20Spa!5e0!3m2!1svi!2s!4v1572803704000!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			</div>
+			<div class="addDetail">
+				<h3>Viện thẩm mỹ xubee</h3>
+				<i class="fas fa-map-marker-alt"></i><span> trụ sở chính THÁI NGUYÊN</span>
+				<p>Địa chỉ: 176 Thống Nhất, Đồng Quang, Thành phố Thái Nguyên</p>
+			</div>
+		</div>
+		<div class="second">
+			<div class="container-footer flex">
+				<div class="left">
+					<p>(*)Kết quả phụ thuộc vào cơ địa của mỗi người</p>
+				</div>
+				<div class="right">
+					<p>Copyright 2019 &copy XUBEE BEAUTY SPA.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/scrtotop.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/page5.js"></script>
+	<script>
+	new WOW().init();
+	</script>
+	<script src="js/sign.js"></script>
+</body>
+</html>

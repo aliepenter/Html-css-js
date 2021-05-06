@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>Viện thẩm mỹ Xubee</title>
+	<link rel="icon" href="images/66825558_365047187534134_3565249015220011008_n.jpg">
+	<!-- Local bootstrap CSS & JS -->
+	<link rel="stylesheet" media="screen" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/signstyle.css">
+	<link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.min.css">
+	<link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css”>
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<div class="menuHeader-mobile" id="menufix">
+			<div class="container menuHeader" id="menuHeader">
+				<div class="left">
+					<div class="logo flex margin-bot">
+						<div class="logo-img">
+							<a href="home.html">
+								<img src="images/66825558_365047187534134_3565249015220011008_n.jpg">
+							</a>
+						</div>
+						<div class="logo-content">
+							<img src="images/61340088_101570394437285_8219198250574413824_o.jpg" width="80%">
+						</div>
+					</div>
+				</div>
+				<div class="mid">
+					<div class="menu">
+						<ul>
+							<li id="click1"><a href="home.html">Trang chủ</a></li>
+							<li id="click2"><a href="home.html#page2">Ưu đãi</a></li>
+							<li id="click3"><a href="home.html#page3">Dịch vụ nổi bật</a></li>
+							<li id="click5"><a href="home.html#page5">Kết quả</a></li>
+							<li id="click4"><a href="home.html#page4">Đặt lịch</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="right flex">
+					<div class="signinbtn">
+						<a href="sign.html">
+							<button style="submit" class="button" onclick="signin()">
+								<i class="fas fa-sign-in-alt"></i>
+								<span>Đăng nhập</span>
+							</button>
+						</a>
+					</div>
+					<div class="phonebtn">
+						<button style="submit" class="button" onclick="call2()">
+							<i class="fas fa-phone"></i>
+							<span>038.758.1858</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="" id="opAll" onclick="back ()">
+		</div>
+		<div class="" id="opAll2" onclick="back2 ()">
+		</div>
+		<div class="" id="opAll3" onclick="back3 ()">
+		</div>
+		<div class="phoneAll phonetop" id="pAll" onclick="phoneBox()">
+			<p>Nhập số điện thoại để được VTM XUBEE gọi lại ngay !</p>
+			<form class="flex" action="call.html" id="callphonenum">
+				<div class="in form-groupval">
+					<input type="text" name="_phone" value="" placeholder="Nhập số điện thoại vào đây" class="">
+				</div>
+				<div class="bu form-groupval">
+					<button type="submit" class="btncall">Yêu cầu gọi lại</button>
+				</div>
+			</form>
+			<div class="recall">
+				<span> Hoặc liên hệ với chúng tôi qua hotline: <br> 038.758.1858</span>
+			</div>
+		</div>
+		<div class="" id="menufix">
+		<div class="header-mobile-res flex fixed" id="scrFixMenu">
+			<div class="left">
+				<i class="fas fa-bars" id="menuBar" onclick="check()"></i>
+			</div>
+			<div class="mid">
+				<div class="logo">
+					<a href="home.html"><img src="images/66825558_365047187534134_3565249015220011008_n.jpg" width="80px"></a>
+				</div>
+			</div>
+			<div class="right">
+				<div class="res-i">
+					<i class="fas fa-phone" onclick="call()"></i>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="mainsign">
+		<div class="img">
+			<img src="images/72707703_426317584740427_6518061618453020672_o.jpg" width="100%">
+		</div>
+		<div class="contentSign wow fadeInDown">
+			<div class="contentSignAni">
+				<p>Đặt lịch trước <br> để nhận miễn phí gói massage da mặt</p>
+			</div>
+			<div class="contentSignAni">
+				<span>Trị giá 199K</span>
+			</div>
+		</div>
+		<div class="containerSign">
+			<div class="mainsignContent">
+				<div class="tabs wow fadeInDown">
+					<div class="tabItem" onclick="tabitem1()" id="tabitem1">
+						<span>Đặt câu hỏi</span>
+					</div>
+					<div class="tabItem" onclick="tabitem2()" id="tabitem2">
+						<span>Đặt lịch</span>
+					</div>
+				</div>
+				<div class="formsign">
+					<div class="formSignUp" id="fSu">
+						<form class="containerForm" action="sendquesdone.html">
+							<div class="name">
+								<input class="form-group wow fadeInUp" type="text" name="" value="" placeholder="Họ và tên...">
+							</div>
+							<div class="addr">
+								<input class="form-group wow fadeInUp" type="text" name="" value="" placeholder="Địa chỉ...">
+							</div>
+							<div class="user-phone">
+								<input class="form-group wow fadeInUp" type="text" name="" value="" placeholder="Số điện thoại">
+							</div>
+							<div class="email">
+								<input class="form-group wow fadeInUp" type="text" name="" value="" placeholder="Email...">
+							</div>
+							<div class="imgsend">
+								<p class="wow fadeInUp">Tải lên hình ảnh</p>
+								<input type="file" id="imgsend" class="wow fadeInUp" name="avatar" accept="image/png, image/jpeg" placeholder="Gửi ảnh vào đây">
+							</div>
+							<div class="note">
+								<textarea class="form-group wow fadeInUp" rows="3"width=device-width placeholder="Viết câu hỏi của bạn vào đây..."></textarea>
+							</div>
+							<div class="btsignup wow fadeInDown">
+								<a href="#">
+									<button type="" class="button">
+										<span>Gửi câu hỏi</span>
+									</button>
+								</a>
+							</div>
+						</form>
+					</div>
+					<div class="formSignIn formbook" id="fSi">
+						<form class="containerForm po-in" id="signUpform" action="bookdone.html">
+							<div class="textbook">
+								<p>Vui lòng điền vào mẫu dưới đây hoàn toàn để đặt cuộc hẹn của bạn!</p>
+								<p>Sẽ rất hữu ích nếu bạn có một tư vấn trực tuyến tốt hơn nếu bạn đính kèm một số bức ảnh được chụp ở cả hai bên mối quan tâm của bạn và ở góc 45 độ từ phần liên quan của bạn.</p>
+								<p>Thông tin của bạn bao gồm các bức ảnh chỉ được sử dụng cho tư vấn, không cho bất kỳ mục đích nào khác và không được tiết lộ cho bất kỳ ai.</p>
+							</div>
+							<div class="user-phone">
+								<input class="form-group wow fadeInUp" type="text" name="_phone" value="" placeholder="*Số điện thoại...">
+							</div>
+							<div class="name flex">
+								<div class="firstname form-groupva sameinput">
+									<input class="form-group2 wow fadeInUp" type="text" name="_fname" value="" placeholder="*Họ của bạn...">
+								</div>
+								<div class="lastname form-groupva sameinput sameinputright">
+									<input class="form-group2 wow fadeInUp" type="text" name="_lname" value="" placeholder="*Tên của bạn...">
+								</div>
+							</div>
+							<div class="addr flex">
+								<div class="quan form-groupva sameinput">
+									<input class="form-group2 wow fadeInUp" type="text" name="_quan" value="" placeholder="*Quận...">
+								</div>
+								<div class="city form-groupva sameinput sameinputright">
+									<input class="form-group2 wow fadeInUp" type="text" name="_city" value="" placeholder="*Thành phố...">
+								</div>
+							</div>
+							<div class="date">
+								<input class="form-group wow fadeInUp" type="date" name="_date" value="" placeholder="Email...">
+							</div>
+							<div class="imgsend">
+								<p class="wow fadeInUp pBook">Tải lên hình ảnh</p>
+								<input type="file" id="imgsend" class="wow fadeInUp" name="avatar" accept="image/png, image/jpeg" placeholder="Gửi ảnh vào đây">
+							</div>
+							<div class="note">
+								<textarea class="form-group wow fadeInUp" rows="3"width=device-width placeholder="Bạn đang gặp vấn đề gì..."></textarea>
+							</div>						
+							<div class="btsignin wow fadeInDown">
+								<a href="#">
+									<button type="" class="button">
+										<span>Đặt lịch hẹn</span>
+									</button>
+								</a>
+							</div>
+						</form>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="first flex">
+			<div class="contact">
+				<div class="logoFooter">
+					<img src="images/66825558_365047187534134_3565249015220011008_n.jpg">
+					<div class="certi">
+						<p>số cchn: 00378/bp / qđ 238/byt - gphđ - Bộ y tế</p>
+					</div>
+				</div>
+				<div class="iconContact flex">
+					<div class="fb iconsame">
+						<a href="https://www.facebook.com/thammyxubee/" target="_blank"><i class="fab fa-facebook"></i></a>
+					</div>
+					<div class="yt iconsame">
+						<a href="https://www.youtube.com/channel/UCpii__p4GyHohJ-7MMM5IBg" target="_blank"><i class="fab fa-youtube"></i></a>
+					</div>
+					<div class="phoneicon iconsame">
+						<i class="fas fa-phone" onclick="call2()"></i>
+					</div>
+				</div>
+				<div class="contactDetail flex">
+					<div class="left">
+						<ul>
+							<li><i class="fas fa-phone"></i> Di động</li>
+							<li><i class="fas fa-envelope"></i> Email</li>
+							<li><i class="fab fa-facebook"></i> Facebook</li>
+						</ul>
+					</div>
+					<div class="right">
+						<ul>
+							<li>038.758.1858</li>
+							<li>thammyxubee@gmail.com</li>
+							<li>Viện thẩm mỹ XuBee</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="addMap">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.1831601498748!2d105.83507611533777!3d21.578772474148778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313527630264c931%3A0xa640cee7a4aa0f3b!2sXubee%20Beauty%20Spa!5e0!3m2!1svi!2s!4v1572803704000!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			</div>
+			<div class="addDetail">
+				<h3>Viện thẩm mỹ xubee</h3>
+				<i class="fas fa-map-marker-alt"></i><span> trụ sở chính THÁI NGUYÊN</span>
+				<p>Địa chỉ: 176 Thống Nhất, Đồng Quang, Thành phố Thái Nguyên</p>
+			</div>
+		</div>
+		<div class="second">
+			<div class="container-footer flex">
+				<div class="left">
+					<p>(*)Kết quả phụ thuộc vào cơ địa của mỗi người</p>
+				</div>
+				<div class="right">
+					<p>Copyright 2019 &copy XUBEE BEAUTY SPA.</p>
+				</div>
+			</div>
+		</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/scrtotop.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+	new WOW().init();
+	</script>
+	<script src="js/sign.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>Viện thẩm mỹ Xubee</title>
+	<link rel="icon" href="images/66825558_365047187534134_3565249015220011008_n.jpg">
+	<link rel="stylesheet" media="screen" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/callstyle.css">
+	<link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.min.css">
+	<link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css”>
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<div class="menuHeader-mobile" id="menufix">
+			<div class="container menuHeader" id="menuHeader">
+				<div class="left">
+					<div class="logo flex margin-bot">
+						<div class="logo-img">
+							<a href="home.html">
+								<img src="images/66825558_365047187534134_3565249015220011008_n.jpg">
+							</a>
+						</div>
+						<div class="logo-content">
+							<img src="images/61340088_101570394437285_8219198250574413824_o.jpg" width="80%">
+						</div>
+					</div>
+				</div>
+				<div class="mid">
+					<div class="menu">
+						<ul>
+							<li id="click1"><a href="home.html">Trang chủ</a></li>
+							<li id="click2"><a href="home.html#page2">Ưu đãi</a></li>
+							<li id="click3"><a href="home.html#page3">Dịch vụ nổi bật</a></li>
+							<li id="click5"><a href="home.html#page5">Kết quả</a></li>
+							<li id="click4"><a href="home.html#page4">Đặt lịch</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="right flex">
+					<div class="signinbtn">
+						<a href="sign.html">
+							<button style="submit" class="button" onclick="signin()">
+								<i class="fas fa-sign-in-alt"></i>
+								<span>Đăng nhập</span>
+							</button>
+						</a>
+					</div>
+					<div class="phonebtn">
+						<button style="submit" class="button" onclick="call2()">
+							<i class="fas fa-phone"></i>
+							<span>038.758.1858</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="" id="opAll" onclick="back ()">
+		</div>
+		<div class="" id="opAll2" onclick="back2 ()">
+		</div>
+		<div class="" id="opAll3" onclick="back3 ()">
+		</div>
+		<div class="phoneAll phonetop" id="pAll" onclick="phoneBox()">
+			<p>Nhập số điện thoại để được VTM XUBEE gọi lại ngay !</p>
+			<form class="flex" action="call.html" id="callphonenum">
+				<div class="in form-groupval">
+					<input type="text" name="_phone" value="" placeholder="Nhập số điện thoại vào đây" class="">
+				</div>
+				<div class="bu form-groupval">
+					<button type="submit" class="btncall">Yêu cầu gọi lại</button>
+				</div>
+			</form>
+			<div class="recall">
+				<span> Hoặc liên hệ với chúng tôi qua hotline: <br> 038.758.1858</span>
+			</div>
+		</div>
+		<div class="" id="menufix">
+		<div class="header-mobile-res flex fixed" id="scrFixMenu">
+			<div class="left">
+				<i class="fas fa-bars" id="menuBar" onclick="check()"></i>
+			</div>
+			<div class="mid">
+				<div class="logo">
+					<a href="home.html"><img src="images/66825558_365047187534134_3565249015220011008_n.jpg" width="80px"></a>
+				</div>
+			</div>
+			<div class="right">
+				<div class="res-i">
+					<i class="fas fa-phone" onclick="call()"></i>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+<div class="maincall">
+	<div class="information">
+		<i class="fas fa-check-circle"></i>
+		<h3>Gửi câu hỏi thành công</h3>
+	</div>
+	<div class="text">
+		<p><span>Viện thẩm mỹ XuBee</span> <br> Đã nhận được câu hỏi của bạn. Chúng tôi sẽ trả lời câu hỏi của bạn sớm nhất có thể !</p>
+			</div>
+	<div class="btnBackhome">
+		<a href="home.html"><button type="submit" class="button"><span>Về trang chủ</span></button></a>
+
+	</div>
+</div>
+
+
+<div class="footer">
+		<div class="first flex">
+			<div class="contact">
+				<div class="logoFooter">
+					<img src="images/66825558_365047187534134_3565249015220011008_n.jpg">
+					<div class="certi">
+						<p>số cchn: 00378/bp / qđ 238/byt - gphđ - Bộ y tế</p>
+					</div>
+				</div>
+				<div class="iconContact flex">
+					<div class="fb iconsame">
+						<a href="https://www.facebook.com/thammyxubee/" target="_blank"><i class="fab fa-facebook"></i></a>
+					</div>
+					<div class="yt iconsame">
+						<a href="https://www.youtube.com/channel/UCpii__p4GyHohJ-7MMM5IBg" target="_blank"><i class="fab fa-youtube"></i></a>
+					</div>
+					<div class="phoneicon iconsame">
+						<i class="fas fa-phone" onclick="call2()"></i>
+					</div>
+				</div>
+				<div class="contactDetail flex">
+					<div class="left">
+						<ul>
+							<li><i class="fas fa-phone"></i> Di động</li>
+							<li><i class="fas fa-envelope"></i> Email</li>
+							<li><i class="fab fa-facebook"></i> Facebook</li>
+						</ul>
+					</div>
+					<div class="right">
+						<ul>
+							<li>038.758.1858</li>
+							<li>thammyxubee@gmail.com</li>
+							<li>Viện thẩm mỹ XuBee</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="addMap">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.1831601498748!2d105.83507611533777!3d21.578772474148778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313527630264c931%3A0xa640cee7a4aa0f3b!2sXubee%20Beauty%20Spa!5e0!3m2!1svi!2s!4v1572803704000!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			</div>
+			<div class="addDetail">
+				<h3>Viện thẩm mỹ xubee</h3>
+				<i class="fas fa-map-marker-alt"></i><span> trụ sở chính THÁI NGUYÊN</span>
+				<p>Địa chỉ: 176 Thống Nhất, Đồng Quang, Thành phố Thái Nguyên</p>
+			</div>
+		</div>
+		<div class="second">
+			<div class="container-footer flex">
+				<div class="left">
+					<p>(*)Kết quả phụ thuộc vào cơ địa của mỗi người</p>
+				</div>
+				<div class="right">
+					<p>Copyright 2019 &copy XUBEE BEAUTY SPA.</p>
+				</div>
+			</div>
+		</div>
+
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/scrtotop.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+	new WOW().init();
+	</script>
+	<script src="js/sign.js"></script>
+</body>
+</html>
